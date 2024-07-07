@@ -1,4 +1,4 @@
-# Online Banking Application for Amen Bank
+# Online Banking Application
 
 ## Introduction
 This repository contains the source code and associated resources for our final year project aimed at developing an online banking web application for Amen Bank. The project was undertaken during our four-month internship.
