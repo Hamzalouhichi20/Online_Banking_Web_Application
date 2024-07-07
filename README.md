@@ -34,6 +34,9 @@ The application follows an MVC architecture on the frontend with Angular and a R
 - Node.js and npm
 - MySQL
 - IDE of your choice (IntelliJ IDEA recommended)
+
+## Screenshots
+
 ![aaa](https://github.com/Hamzalouhichi20/myProject/assets/127750826/8ca237ae-c949-43f2-9ff7-b87074f76ec5)
 ![bbb](https://github.com/Hamzalouhichi20/myProject/assets/127750826/cfeeb510-0255-4710-a4fb-3967d69bf707)
 ![ccc](https://github.com/Hamzalouhichi20/myProject/assets/127750826/bacacb6e-90e6-442d-83bd-20f896dc5175)
