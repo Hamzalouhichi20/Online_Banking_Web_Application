@@ -57,7 +57,7 @@ Voici un exemple Image prédite :
 
 
 voici Extrait du JSON généré à partir de cette image :
-![Capture d’écran, le 2025-04-09 à 15 39 25](https://github.com/user-attachments/assets/c2317782-858e-4f2c-8034-2eff98797b12)
+![Capture d’écran, le 2025-04-09 à 15 57 57](https://github.com/user-attachments/assets/9f3dcaaa-ed4e-4314-936e-f99185297ce0)
 
 
 
