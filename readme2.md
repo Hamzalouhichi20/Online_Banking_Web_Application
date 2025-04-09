@@ -24,4 +24,5 @@ Dans notre cas, chaque image a été annotée avec soin pour identifier les él�
 	•	🚩 Corners
 Roboflow propose aussi un export automatique au format YOLOv8, prêt à être utilisé pour l’entraînement de modèles
 Voici un exemple issu de notre processus d’annotation :
-![Annotation Demo](./assets/annotation_demo.gif)
+![notation](https://github.com/user-attachments/assets/dfccb68a-5d19-4c46-841f-896978451ea4)
+
