@@ -45,5 +45,13 @@ Nous avons utilisé le modèle **yolov8m**, que nous avons entraîné spécifiqu
 ####  Avant / Après détection YOLOv8
 | Avant détection                          | Après prédiction YOLOv8                      |
 |------------------------------------------|----------------------------------------------|
-| ![image-original](./assets/original.jpg) |![frame0-00-04-00_jpg rf 833200a3db8c597daaf2254840c455cb](https://github.com/user-attachments/assets/a0a5fb6b-5d2e-48e5-b0df-62f56491587b)
+|![frame0-00-04-00_jpg rf 833200a3db8c597daaf2254840c455cb](https://github.com/user-attachments/assets/f32b35aa-1f7a-4617-b6e4-49298ace8212) |![frame0-00-04-00_jpg rf 833200a3db8c597daaf2254840c455cb](https://github.com/user-attachments/assets/a0a5fb6b-5d2e-48e5-b0df-62f56491587b)
   |
+
+
+
+
+
+
+
+
