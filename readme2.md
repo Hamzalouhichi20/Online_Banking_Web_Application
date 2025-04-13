@@ -7,7 +7,7 @@ Notre partie du projet vise à **détecter automatiquement** les éléments clé
 
 Ce dataset structuré a été conçu pour être exploité ensuite par d’autres membres de l’équipe, afin d’entraîner des modèles prédictifs capables d’anticiper la prochaine action de jeu (ex: passe, tir, corner, etc.).
 
-Enfin, nous avons ajouté une partie de raisonnement probabiliste, permettant d’inférer des règles de jeu simples à partir des fréquences observées dans les données, même lorsque certaines informations sont absentes ou incertaines.
+Enfin, nous avons intégré une étape d’estimation automatique des données manquantes à l’aide d’une version simplifiée de l’algorithme EM (Expectation-Maximization), cette méthode nous a permis de compléter les coordonnées manquantes du ballon et d’ajuster dynamiquement les autres variables dérivées (possession, densité, distance au but…), assurant ainsi un dataset plus cohérent et exploitable pour les étapes d’analyse et de prédiction qui seront réalisées par les autres membres du groupe.
 
 ## 🔧 Étapes du travail
 ### 1. 📸 Collecte d’images
