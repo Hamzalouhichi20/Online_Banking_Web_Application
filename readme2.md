@@ -61,8 +61,7 @@ dataset/
 ```
 Chaque fichier .txt porte le même nom que son image, ce qui permet un couplage automatique entre image et labels
 ### 3. Entraînement du modèle YOLOv8
-> **YOLOv8** (You Only Look Once, version 8) est un modèle de détection d’objets **en temps réel**, développé par [Ultralytics](https://github.com/ultralytics/ultralytics).  
-> Il est basé sur une architecture moderne et propose plusieurs variantes (`n`, `s`, `m`, `l`, `x`) selon le niveau de performance et de rapidité souhaité.
+> **YOLOv8** (You Only Look Once, version 8) est un modèle de détection d’objets **en temps réel**, développé par [Ultralytics](https://github.com/ultralytics/ultralytics). Il repose sur des réseaux de neurones convolutifs (CNN) et s’appuie sur une architecture moderne. Plusieurs variantes sont disponibles (n, s, m, l, x), permettant d’ajuster le compromis entre performance et rapidité selon les besoins.
 
 Nous avons utilisé le modèle **yolov8m**, que nous avons entraîné spécifiquement sur notre propre dataset de football, afin qu’il apprenne à reconnaître :
 
@@ -75,7 +74,17 @@ Nous avons utilisé le modèle **yolov8m**, que nous avons entraîné spécifiqu
 
 L’entraînement du modèle YOLOv8m sur notre propre dataset a été effectué localement sur CPU, directement dans un environnement VS Code sur un MacBook.
 Cela a nécessité environ 295 minutes
-<img width="456" alt="Capture d’écran, le 2025-04-18 à 00 09 55" src="https://github.com/user-attachments/assets/9c2c7a22-7141-4d58-a36e-4151ed700784" />
+
+<img width="456" alt="Capture d’écran, le 2025-04-18 à 00 09 55" src="https://github.com/user-attachments/assets/9c2c7a22-7141-4d58-a36e-4151ed700784" />
+
+#### Paramètres d’entraînement
+
+```txt
+Épochs         : 10       → cycles d’apprentissage
+Taille images  : 640x640  → redimensionnement uniforme
+Batch size     : 16       → images simultanées
+Seuil confiance: 0.25     → seuil détection
+```
 
 ####  Avant / Après détection YOLOv8
 | Avant détection                          | Après prédiction YOLOv8                      |
@@ -88,8 +97,8 @@ Après la détection, nous avons généré un fichier `.json` contenant, pour ch
 - Les coordonnées du ballon  
 - Les joueurs autour (TEAM 1 et TEAM 2)
 - Position du Gardien 
-- Position du cage de but
-- Position du arbitre
+- Position de la cage de but
+- Position de l'arbitre
 - Position du corner
 - Calcul automatique de :
 	-	la distance entre le ballon et le but
